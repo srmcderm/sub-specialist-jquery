@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  e.preventDefault();
   $("#course").on("change", function () {
     var $option = $(this).find("option:selected");
     var value = $option.val();
